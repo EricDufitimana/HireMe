@@ -1,0 +1,171 @@
+    {
+      "name": "Eric Dufitimana",
+      "title": "Full-Stack Engineer, Strategic Advisor",
+      "image": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg",
+      "email": "dufitimanaeric1@gmail.com",
+      "phone": "+2507945007353",
+      "location": "Kigali, Rwanda",
+      "industryKnowledge": ["Full-Stack Development", "Strategic Advisory"],
+      "toolsAndTechnologies": ["JavaScript", "React", "Node.js", "SQL", "Git", "Docker"],
+      "otherSkills": ["Problem Solving", "Communication", "Team Leadership"],
+      "languages": ["French (Native)", "English (Professional)"],
+      "socials": {
+        "website": "erico.dufitimana.com",
+        "linkedin": "linkedin.com/in/eric",
+        "dribbble": "dribbble.com/eric"
+      },
+      "experience": [
+        {
+          "name": "Agahozo-Shalom Youth Village",
+          "location": "Kigali, Rwanda",
+          "years": "2018 - Present",
+          "description": "Senior UI/UX Product Designer, leading design efforts for various projects and initiatives."
+        },
+        {
+          "name": "Jackal Tech Ltd.",
+          "location": "Kigali, Rwanda",
+          "years": "2016 - 2018",
+          "description": "UI/UX Product Designer, responsible for designing user interfaces and experiences for web and mobile applications."
+        },
+        {
+          "name": "What-it-do Enterprise",
+          "location": "Kigali, Rwanda",
+          "years": "2015 - 2016",
+          "description": "UI Designer, focused on creating visually appealing and user-friendly interfaces."
+        },
+              {
+          "name": "Yooooo Ltd.",
+          "location": "Kigali, Rwanda",
+          "years": "2014 - 2015",
+          "description": "Graphic Designer, created visual concepts and designs for various marketing materials."
+        }
+      ],
+      "bio": "Eric is a seasoned Full-Stack Engineer and Strategic Advisor based in Kigali. He has a strong track record of delivering high-impact solutions for businesses and organizations, with a focus on user-centered design and innovation. He is passionate about leveraging technology to drive positive change in Rwanda."
+    },
+    {
+      "name": "Jabo Gabiro Junior",
+      "title": "Ethical Hacker, Machine Learning Specialist",
+      "image": "https://example.com/jabo_gabiro_junior.jpg",
+      "email": "jabo.gabiro@example.com",
+      "phone": "+250788123456",
+      "location": "Kigali, Rwanda",
+      "industryKnowledge": ["Cybersecurity", "Artificial Intelligence"],
+      "toolsAndTechnologies": ["Python", "TensorFlow", "Kali Linux", "Metasploit", "Nmap"],
+      "otherSkills": ["Problem Solving", "Critical Thinking", "Communication", "Reporting"],
+       "languages": ["Kinyarwanda (Native)", "English (Fluent)"],
+      "socials": {
+        "linkedin": "linkedin.com/in/jabogabiro",
+        "github": "github.com/jabogabiro"
+      },
+      "experience": [
+        {
+          "name": "Rwandan Cybersecurity Center",
+          "location": "Kigali, Rwanda",
+          "years": "2020 - Present",
+          "description": "Ethical Hacker, conducting penetration testing and vulnerability assessments."
+        },
+        {
+          "name": "University of Rwanda",
+          "location": "Kigali, Rwanda",
+          "years": "2018 - 2020",
+          "description": "Research Assistant, working on machine learning projects for cybersecurity."
+        }
+      ],
+      "bio": "Jabo is an Ethical Hacker and Machine Learning Specialist dedicated to strengthening digital security in Rwanda. He specializes in penetration testing, vulnerability assessments, and developing AI-driven security solutions. Jabo is committed to educating organizations on best practices for cybersecurity."
+    },
+    {
+      "name": "Nasabato Sandra",
+      "title": "Back-end Developer, DevOps Engineer",
+      "image": "https://example.com/nasabato_sandra.jpg",
+       "email": "nasabato.sandra@example.com",
+      "phone": "+250789987654",
+      "location": "Kigali, Rwanda",
+      "industryKnowledge": ["Software Development", "Cloud Computing"],
+      "toolsAndTechnologies": ["Python", "Django", "AWS", "Docker", "Kubernetes", "CI/CD"],
+      "otherSkills": ["System Administration", "Automation", "Problem Solving", "Teamwork"],
+      "languages": ["Kinyarwanda (Native)", "English (Professional)"],
+      "socials": {
+        "linkedin": "linkedin.com/in/nasabatosandra",
+        "github": "github.com/nasabatosandra"
+      },
+      "experience": [
+        {
+          "name": "Kigali Tech Solutions",
+          "location": "Kigali, Rwanda",
+          "years": "2019 - Present",
+          "description": "Back-end Developer and DevOps Engineer, building and deploying scalable web applications."
+        },
+        {
+          "name": "Andela Rwanda",
+          "location": "Kigali, Rwanda",
+          "years": "2017 - 2019",
+          "description": "Software Developer, working on various back-end projects."
+        }
+      ],
+      "bio": "Nasabato is a Back-end Developer and DevOps Engineer focused on building scalable and reliable systems. She is proficient in designing and implementing server-side logic, automating deployments, and managing cloud infrastructure. Nasabato is passionate about promoting efficient software development practices."
+    },
+    {
+      "name": "Ishimwe Lucky",
+      "title": "Data Scientist, Blockchain Developer",
+      "image": "https://example.com/ishimwe_lucky.jpg",
+      "email": "ishimwe.lucky@example.com",
+      "phone": "+250787543210",
+      "location": "Kigali, Rwanda",
+      "industryKnowledge": ["Data Science", "Blockchain Technology"],
+      "toolsAndTechnologies": ["Python", "Pandas", "Scikit-learn", "Solidity", "Web3.js", "Ethereum"],
+      "otherSkills": ["Data Analysis", "Machine Learning", "Smart Contract Development", "Communication"],
+      "languages": ["Kinyarwanda (Native)", "English (Fluent)"],
+      "socials": {
+        "linkedin": "linkedin.com/in/ishimwelucky",
+        "github": "github.com/ishimwelucky"
+      },
+      "experience": [
+        {
+          "name": "Rwanda Data Analytics Corp",
+          "location": "Kigali, Rwanda",
+          "years": "2021 - Present",
+          "description": "Data Scientist, developing machine learning models and analyzing data."
+        },
+        {
+          "name": "Kigali Institute of Technology",
+          "location": "Kigali, Rwanda",
+          "years": "2019 - 2021",
+          "description": "Blockchain Developer, building decentralized applications."
+        }
+      ],
+      "bio": "Ishimwe is a Data Scientist and Blockchain Developer exploring the intersection of data analysis and decentralized technologies. He has experience in developing predictive models, analyzing large datasets, and building blockchain applications. Ishimwe is interested in leveraging data science and blockchain for social impact."
+    },
+    {
+      "name": "Akankunda Jacky",
+      "title": "Aviation Engineer, Mobile Game Developer",
+      "image": "https://example.com/akankunda_jacky.jpg",
+      "email": "akankunda.jacky@example.com",
+      "phone": "+250786098765",
+      "location": "Kigali, Rwanda",
+      "industryKnowledge": ["Aviation Engineering", "Game Development"],
+      "toolsAndTechnologies": ["Unity", "C#", "AutoCAD", "MATLAB", "Blender"],
+      "otherSkills": ["3D Modeling", "Game Design", "Project Management", "Problem Solving"],
+      "languages": ["Kinyarwanda (Native)", "English (Professional)"],
+      "socials": {
+        "linkedin": "linkedin.com/in/akankundajacky",
+        "github": "github.com/akankundajacky",
+        "portfolio": "akankunda.com"
+      },
+      "experience": [
+        {
+          "name": "RwandAir",
+          "location": "Kigali, Rwanda",
+          "years": "2022 - Present",
+          "description": "Aviation Engineer, working on aircraft maintenance and engineering projects."
+        },
+        {
+          "name": "Indie Game Studio",
+          "location": "Kigali, Rwanda",
+          "years": "2020 - 2022",
+          "description": "Mobile Game Developer, designing and developing mobile games."
+        }
+      ],
+      "bio": "Akankunda is an Aviation Engineer with a unique passion for Mobile Game Development. She applies her engineering principles to create engaging and innovative mobile gaming experiences. Akankunda is also involved in promoting STEM education among young women in Rwanda."
+    }
+  ]
+  I've updated the mock server data with the changes you requested. Let me know if there's anything else you'd like to modify.

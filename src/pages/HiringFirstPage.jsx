@@ -5,15 +5,19 @@ import Button from '../components/Button'
 
 const HiringFirstPage = () => {
     const [careers, setCareers] = useState([]);
+    const [skills, setSkills] = useState([])
     useEffect(() => {
         const fetchCareers = async() => {
             try{
                 const res = await fetch('http://localhost:8000/Careers');
-                if(!res.ok){
-                    throw new Error(`HTTP error! Status: ${res.status}`)
-                }
+                const ski = await fetch('http://localhost:8000/skills');
+
                 const data = await res.json();
+                const skillsData = await ski.json();
                 setCareers(data);
+                setSkills(skillsData);
+                console.log(data);
+                console.log(skillsData);
             } catch (error){
                 console.log("Error: ", error)
             }
@@ -26,6 +30,7 @@ const HiringFirstPage = () => {
                 <img src={Rectangle} alt="" className=''/>
             </div>
             <div className="flex flex-col items-center gap-[2px]  shadow-lg p-8 rounded-md ">
+                <h2 className='text-green-500 text-sm font-black relative bottom-[10px] left-[200px]'>1 of 3</h2>
                 <h1 className='text-[var(--dark-blue)] text-2xl font-semibold pb-4'>Start The Process Of Hiring</h1>
                 <div className="flex flex-col items-start gap-[20px] max-w-[80%]">
                     <input 
@@ -59,21 +64,39 @@ const HiringFirstPage = () => {
                         <option value="Doctorate (Phd)"></option>
                   
                     </datalist>
-                    <div className="">
+                    <div className="flex gap-2">
+                    <div className="w-1/2">
                         <input 
                             id="careerInput"
                             list="careerOptions"
                             className="border border-gray-400 rounded-md text-sm p-2 focus:outline-none focus:ring-1 focus:ring-[var(--dark-blue)] focus:border-[var(--dark-blue)] w-full"
                             name="degree"
-                            placeholder="Select Degree"
+                            placeholder="Select Career"
                         />
-                        <datalist id="degreeOptions">
+                        <datalist id="careerOptions">
                             {careers.map((careers, index) => (
                                 <option key={index} value={careers}></option>
                             ))}
                     
                         </datalist>
                     </div>
+                    <div className="w-1/2">
+                        <input 
+                            id="skills"
+                            list="skillsOptions"
+                            className="border border-gray-400 rounded-md text-sm p-2 focus:outline-none focus:ring-1 focus:ring-[var(--dark-blue)] focus:border-[var(--dark-blue)] w-full"
+                            name="skills"
+                            placeholder='Select Experience'
+                        />
+                        <datalist id='skillsOptions'>
+                            <option value="1+"></option>
+                            <option value="3+"></option>
+                            <option value="5+"></option>
+                        </datalist>
+                    </div>
+
+                    </div>
+                    
                     <Button content='Sign Up' color='bg-[var(--dark-blue)] px-[144px]'/>
 
                 </div>
